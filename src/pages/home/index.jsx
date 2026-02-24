@@ -24,8 +24,8 @@
                 <thead>
                   <tr>
                     <th>Escala</th>
-                    <th>Dia (01)</th>
-                    <th>Noite (00)</th>
+                    <th>Dia</th>
+                    <th>Noite</th>
                     <th>Folga</th>
                   </tr>
                 </thead>
@@ -107,8 +107,8 @@
               <div className="coluna-ponto">
                 <h3>5.A - Editar ou Ver</h3>
                 <p>Acesse <code>RH &gt; Ponto Eletrônico</code> e use <Kbd>P</Kbd> para pesquisar.</p>
-                <p><strong>Dica:</strong> Se não aparecer, use <Kbd>F5</Kbd> para recalcular (marcar "Manter Cálculo Geral" e "Calcular mesmo sem batida").</p>
-                <p>Para salvar edições: <Kbd>F2</Kbd> no dia/horário e <Kbd>F5</Kbd> para recalcular a folha individual.</p>
+                <p><strong>Dica:</strong> Se não aparecer, use <Kbd>F5</Kbd> para recalcular (marcar "Manter Cálculo", "Geral" e "Calcular mesmo sem batida").</p>
+                {/* <p>Para salvar edições: <Kbd>F2</Kbd> no dia/horário e <Kbd>F5</Kbd> para recalcular a folha individual.</p> */}
               </div>
               <div className="coluna-ponto">
                 <h3>5.B - Imprimir</h3>
