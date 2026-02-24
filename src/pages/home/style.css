@@ -1,0 +1,151 @@
+/* Configurações Gerais */
+.container-guia {
+  padding: 30px;
+  background-color: #f4f7f9;
+  min-height: 100vh;
+  font-family:
+    "Inter",
+    -apple-system,
+    sans-serif;
+  color: #2d3748;
+}
+
+.header-guia {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #3182ce;
+  padding-bottom: 15px;
+}
+
+.header-guia h1 {
+  color: #2c5282;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Flexbox Layout */
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Faz os cards pularem linha se necessário */
+  gap: 24px;
+  justify-content: center;
+}
+
+/* Estilo dos Cards */
+.card-procedimento {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid #3182ce;
+
+  /* Flexbox: cresce, encolhe e mantém base de 350px */
+  flex: 1 1 380px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card especial para largura total */
+.card-total {
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+/* Tipografia Interna */
+h2 {
+  font-size: 1.15rem;
+  color: #2b6cb0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #4a5568;
+  border-left: 4px solid #3182ce;
+  padding-left: 10px;
+}
+
+.instrucao-destaque {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  background: #ebf8ff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Estilo das Teclas (Kbd) */
+.kbd-tecla {
+  background: #edf2f7;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  color: #1a365d;
+  box-shadow: 0 2px 0 #cbd5e0;
+  margin: 0 2px;
+}
+
+/* Listas e Tabelas */
+.lista-passos {
+  padding-left: 20px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.sub-lista {
+  list-style-type: circle;
+  margin-top: 5px;
+}
+
+.tabela-responsiva {
+  overflow-x: auto;
+  margin-top: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+th,
+td {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f7fafc;
+  font-weight: 700;
+}
+
+/* Alertas e Extras */
+.alerta-excluir {
+  margin-top: auto;
+  padding: 12px;
+  background-color: #fff5f5;
+  border-radius: 6px;
+  color: #c53030;
+  font-size: 0.85rem;
+  border: 1px solid #feb2b2;
+}
+
+.flex-ponto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.coluna-ponto {
+  flex: 1 1 300px;
+}
+
+.simbolo-minus {
+  font-weight: bold;
+  font-family: monospace;
+}
